@@ -1,0 +1,157 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  background-color: #9b59ba;
+  color: white;
+  padding: 25px;
+  margin: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+nav a {
+  color: rgb(221, 213, 213);
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  background-color: #9b59ba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+input[type="text"], input[type="password"], input[type="Username"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #0a0909;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #100e0e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 40px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
